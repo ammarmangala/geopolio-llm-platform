@@ -18,7 +18,7 @@ TARGET = 5000
 BATCH_SIZE = 50
 OUTPUT_FILE = "geopolio_dataset_5000s_multidecade.json"
 CHECKPOINT_FILE = "checkpoint.json"
-MODEL = "gpt-4o-mini"  # goedkoop en snel, vervang door gpt-4o voor hogere kwaliteit
+MODEL = "gpt-5.4-mini"  # goedkoop en snel, vervang door gpt-4o voor hogere kwaliteit
 
 client = OpenAI(api_key=API_KEY)
 
