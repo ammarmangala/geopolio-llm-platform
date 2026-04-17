@@ -127,6 +127,41 @@ Use this pattern for future files:
 - checkpoint: `geopolio_dataset_<SIZE>_global_multidecade.checkpoint.json`
 - final training dataset: `geopolio_dataset_<SIZE>_global_multidecade_balanced.json`
 
+## If the workflow grows
+
+If this logic keeps expanding, split it by concern instead of adding more to one large file.
+
+Good split points are:
+
+- dataset constants and catalogs
+- sample generation
+- validation and normalization
+- balancing and quotas
+- CLI or script entrypoints
+- tests for each rule set
+
+That keeps the code easier to read, easier to test, and easier to change without breaking unrelated parts.
+
+## Naming convention for future docs and features
+
+Use names that describe the topic, not vague placeholders.
+
+Good names:
+
+- `DATASET_SPLITTING.md`
+- `DATASET_GENERATION.md`
+- `DATASET_BALANCING.md`
+- `MODEL_EVALUATION.md`
+- `FEATURE_NAME.md` only when the feature has a specific, stable name
+
+Avoid names like:
+
+- `future_feature.md`
+- `notes.md`
+- `misc.md`
+
+If a topic gets bigger, put it in its own file or folder rather than making one generic document do everything.
+
 ## Summary
 
 If you are unsure, use `data/geopolio_dataset_5000s_global_multidecade_balanced.json`.
