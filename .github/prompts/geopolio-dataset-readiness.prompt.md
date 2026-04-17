@@ -4,6 +4,7 @@ name: "Geopolio Dataset Readiness"
 agent: "agent"
 argument-hint: "Dataset path or description"
 ---
+
 Validate the dataset for finetuning readiness.
 
 Default target: `data/geopolio_dataset_5000s_global_multidecade_balanced.json`.
@@ -15,6 +16,7 @@ Check sample count, normalized input uniqueness, schema validity, canonical cate
 If a path is provided, inspect that file. Otherwise inspect the default target.
 
 Return:
+
 1. Verdict: `ready` or `not ready`
 2. Key findings: short bullets
 3. Failed checks: short bullets, or `none`

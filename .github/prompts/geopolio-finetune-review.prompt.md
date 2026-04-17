@@ -4,6 +4,7 @@ name: "Geopolio Finetuning Review"
 agent: "agent"
 argument-hint: "Notebook cell, run logs, checkpoint, or model output"
 ---
+
 Review a Geopolio finetuning run.
 
 Use [README.md](README.md), [docs/DATASET_WORKFLOW.md](docs/DATASET_WORKFLOW.md), and [docs/FINETUNING_NOTES.md](docs/FINETUNING_NOTES.md).
@@ -13,6 +14,7 @@ Focus on [notebooks/geopolio_finetune.ipynb](notebooks/geopolio_finetune.ipynb) 
 If logs, checkpoints, or outputs are provided, use them.
 
 Return:
+
 1. Verdict: `healthy`, `needs attention`, or `blocked`
 2. What looks good: short bullets
 3. Concerns: short bullets, or `none`
