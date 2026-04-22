@@ -112,6 +112,13 @@ The final model should include both:
 - model weights
 - tokenizer files
 
+## Hugging Face export
+
+When the notebook pushes the model to Hugging Face, it should read the token from the `HF_TOKEN` environment variable.
+Do not hardcode access tokens in the notebook.
+
+If `HF_TOKEN` is missing, the login step should be skipped instead of failing the whole notebook.
+
 ## Basic notebook workflow
 
 1. Load model and tokenizer.
