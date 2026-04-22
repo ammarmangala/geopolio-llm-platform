@@ -17,6 +17,7 @@ Use this skill when documentation needs to stay aligned with the repository.
 
 ## What to Check
 
+- Recent commits and notebook diffs for workflow changes that affect the docs
 - `docs/README.md` stays current as the docs entry point.
 - `docs/guides/README.md` stays current as the workflow guide index.
 - `docs/guides/ARCHITECTURE.md` matches the actual repo layout.
@@ -28,10 +29,11 @@ Use this skill when documentation needs to stay aligned with the repository.
 ## Procedure
 
 1. Identify the area that changed.
-2. Check whether the docs index mentions it.
-3. Check whether the relevant guide still matches the code.
-4. Update the docs before the change spreads to more files.
-5. Keep the writing short, direct, and beginner-friendly.
+2. Check recent commits and notebook diffs for behavior changes, especially in testing, evaluation, export, or data-loading cells.
+3. Check whether the docs index mentions the affected workflow.
+4. Check whether the relevant guide still matches the notebook or scripts.
+5. Update the docs before the change spreads to more files.
+6. Keep the writing short, direct, and beginner-friendly.
 
 ## Output Format
 
@@ -59,6 +61,7 @@ Use this skill when documentation needs to stay aligned with the repository.
 
 ## What to Check
 
+- Recent commits and notebook diffs for workflow changes that affect the docs
 - `docs/README.md` stays current as the docs entry point.
 - `docs/ARCHITECTURE.md` matches the actual repo layout.
 - `docs/DATASET_WORKFLOW.md` matches the current dataset rules.
@@ -68,10 +71,11 @@ Use this skill when documentation needs to stay aligned with the repository.
 ## Procedure
 
 1. Identify the area that changed.
-2. Check whether the docs index mentions it.
-3. Check whether the relevant guide still matches the code.
-4. Update the docs before the change spreads to more files.
-5. Keep the writing short, direct, and beginner-friendly.
+2. Check recent commits and notebook diffs for behavior changes, especially in testing, evaluation, export, or data-loading cells.
+3. Check whether the docs index mentions the affected workflow.
+4. Check whether the relevant guide still matches the notebook or scripts.
+5. Update the docs before the change spreads to more files.
+6. Keep the writing short, direct, and beginner-friendly.
 
 ## Output Format
 
